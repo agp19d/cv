@@ -1,5 +1,7 @@
 /* CSS Styling */
-
+h1, h2 {
+    color: #4C4C6D;
+}
 th, td {
     padding: 5px;
 }
