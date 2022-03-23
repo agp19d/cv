@@ -1,4 +1,15 @@
 /* CSS Styling */
+
+/* 
+Notes
+-----------------------------------------------------------------------------------
+. CSS is written as "WHO to change { WHAT to change: HOW to change; } 
+. Recall that all the properties within the object should be ordered alpahetically 
+
+*/
+
+
+/************************ TAG SELECTORS ************************/
 h1, h2 {
     color: #4C4C6D;
 }
@@ -16,4 +27,25 @@ hr {
     border-color: grey;
     border-width: 5px;
     width: 7%;
+}
+
+/************************ CLASS SELECTORS ***********************/
+
+.bottom-separator  {
+    
+    border-color: grey;
+    border-width: 2px;
+    width: 99%;
+}
+
+/************************ ID SELECTORS *************************/
+
+#email-body {
+    
+    width: 20%;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
 }
