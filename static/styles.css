@@ -13,15 +13,19 @@ Notes
 h1, h2 {
     color: #4C4C6D;
 }
+
 th, td {
     padding: 5px;
 }
+
 th {
     text-align: left;
 }
+
 body {
     background-color: #E8F6EF;
 }
+
 hr {
     border-style: dotted none none;
     border-color: grey;
@@ -36,6 +40,18 @@ hr {
     border-color: grey;
     border-width: 2px;
     width: 99%;
+}
+
+.circular {
+    border-radius: 8px;
+}
+
+.doc-main-header {
+    font-size: 1.7em;
+}
+
+.section-header {
+    font-size: 1.3em;
 }
 
 /************************ ID SELECTORS *************************/
